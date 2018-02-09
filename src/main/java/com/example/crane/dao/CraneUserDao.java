@@ -6,13 +6,14 @@ import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 
 import javax.transaction.Transactional;
+import java.util.List;
 
 /**
  * 这个类用来实现CraneUser类的数据接口
  */
 public interface CraneUserDao extends JpaRepository<CraneUser, Long> {
 
-    public CraneUser findDistinctFirstByUserPhoneAndPassword(String userPhone, String userPassword);
+    public List<CraneUser> findByUserPhoneAndPassword(String userPhone, String userPassword);
 
     @Modifying
     @Transactional
@@ -21,4 +22,11 @@ public interface CraneUserDao extends JpaRepository<CraneUser, Long> {
      * 注意，在这里我们规定注册后用户可以立即上传图片
      */
     public void registerPhonePassword(String userPhone, String userPassword);
+
+    @Modifying
+    @Transactional
+    @Query(value = "update crane_user set user_password = ?2 where user_phone = ?1", nativeQuery = true)
+    public void forgetPasswordUpdate(String userPhone, String userPassword);
+
+    public CraneUser findTopByUserPhone(String user_phone);
 }

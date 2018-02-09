@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.io.IOException;
+import java.util.List;
 import java.util.UUID;
 
 /**
@@ -33,12 +34,17 @@ public class UploadDeletePictureController {
         if (uploadPictureModel.getUserPhone() == null || uploadPictureModel.getUserPassword() == null)
             return "-1";    //唉，连手机号和密码都是空的
 
-
-        CraneUser craneUser = craneUserDao.findDistinctFirstByUserPhoneAndPassword(uploadPictureModel.getUserPhone(),
-                uploadPictureModel.getUserPassword());
-        if (craneUser == null | !CheckInputUtils.checkTel(uploadPictureModel.getUserPhone())){
-            return "0"; //表示没有用户，该手机号还没有注册,或者密码错误
+        if ( !CheckInputUtils.checkTel(uploadPictureModel.getUserPhone())){
+            return "0"; //手机号有问题
         }
+
+        List craneUserList = craneUserDao.findByUserPhoneAndPassword(uploadPictureModel.getUserPhone(),
+                uploadPictureModel.getUserPassword());
+        if (craneUserList == null)
+            return "1"; //不好意思，没有那个用户或者密码错误
+        if (craneUserList.size() != 1)
+            return "2"; //兄弟，有可能有SQL注入啊
+
 
         if (uploadPictureModel.getBase64() == null)
             return "1"; //表示上传的图片为空，上传失败

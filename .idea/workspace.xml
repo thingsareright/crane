@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47050ade-4abe-4bad-9ccb-814064ba0889" name="Default" comment="" />
+    <list default="true" id="47050ade-4abe-4bad-9ccb-814064ba0889" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../crane/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../crane/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../crane/src/main/java/com/example/crane/controller/UploadDeletePictureController.java" afterPath="$PROJECT_DIR$/../crane/src/main/java/com/example/crane/controller/UploadDeletePictureController.java" />
+      <change beforePath="$PROJECT_DIR$/../crane/src/main/java/com/example/crane/controller/UserController.java" afterPath="$PROJECT_DIR$/../crane/src/main/java/com/example/crane/controller/UserController.java" />
+      <change beforePath="$PROJECT_DIR$/../crane/src/main/java/com/example/crane/dao/CraneUserDao.java" afterPath="$PROJECT_DIR$/../crane/src/main/java/com/example/crane/dao/CraneUserDao.java" />
+      <change beforePath="$PROJECT_DIR$/../crane/src/main/java/com/example/crane/util/CheckInputUtils.java" afterPath="$PROJECT_DIR$/../crane/src/main/java/com/example/crane/util/CheckInputUtils.java" />
+      <change beforePath="$PROJECT_DIR$/../crane/src/test/java/com/example/crane/RegisterTests.java" afterPath="$PROJECT_DIR$/../crane/src/test/java/com/example/crane/RegisterTests.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +23,8 @@
       <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../crane/src/main/java/com/example/crane/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="43" column="69" lean-forward="false" selection-start-line="43" selection-start-column="69" selection-end-line="43" selection-end-column="69" />
+            <state relative-caret-position="489">
+              <caret line="89" column="71" lean-forward="false" selection-start-line="89" selection-start-column="71" selection-end-line="89" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -25,28 +32,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SmsUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../crane/src/main/java/com/example/crane/util/SmsUtil.java">
+      <file leaf-file-name="CraneUserDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../crane/src/main/java/com/example/crane/dao/CraneUserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+            <state relative-caret-position="63">
+              <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1518158381119" expanded="true" signature="569:709" ph="insert into crane_user... " />
+                <marker date="1518158381119" expanded="true" signature="912:974" ph="update crane_user... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UploadDeletePictureController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../crane/src/main/java/com/example/crane/controller/UploadDeletePictureController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="409">
+              <caret line="60" column="25" lean-forward="false" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CraneTokenLogDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../crane/src/main/java/com/example/crane/dao/CraneTokenLogDao.java">
+      <file leaf-file-name="CheckInputUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../crane/src/main/java/com/example/crane/util/CheckInputUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1518083263892" expanded="true" signature="534:607" ph="INSERT INTO token_log... " />
-                <marker date="1518083263892" expanded="true" signature="534:641" ph="INSERT INTO token_log... " />
-                <marker date="1518083263892" expanded="true" signature="742:816" ph="select log_t... crane_token_log" />
-                <marker date="1518083263892" expanded="true" signature="742:849" ph="select log_t... crane_token_log" />
-              </folding>
+            <state relative-caret-position="1150">
+              <caret line="51" column="26" lean-forward="false" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -54,8 +69,8 @@
       <file leaf-file-name="RegisterTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../crane/src/test/java/com/example/crane/RegisterTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="529">
+              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -129,6 +144,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/example/crane/dao/CraneTokenLogDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/crane/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/crane/util/SmsUtil.java" />
+        <option value="$PROJECT_DIR$/../crane/src/main/java/com/example/crane/util/CheckInputUtils.java" />
+        <option value="$PROJECT_DIR$/../crane/src/main/java/com/example/crane/dao/CraneUserDao.java" />
+        <option value="$PROJECT_DIR$/../crane/src/main/java/com/example/crane/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/../crane/src/main/java/com/example/crane/controller/UploadDeletePictureController.java" />
+        <option value="$PROJECT_DIR$/../crane/src/test/java/com/example/crane/RegisterTests.java" />
       </list>
     </option>
   </component>
@@ -138,13 +158,15 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="16" />
-    <option name="y" value="48" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="214" />
+    <option name="y" value="138" />
     <option name="width" value="1370" />
     <option name="height" value="611" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -193,14 +215,62 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="crane" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="crane" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crane" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="crane" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crane" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crane" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="crane" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crane" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crane" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="crane" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crane" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crane" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crane" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crane" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crane" type="b2602c69:ProjectViewProjectNode" />
+              <item name="crane" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="crane" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -215,7 +285,7 @@
     <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/example/crane" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/..//GitHUb/zzudangdangweb1" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -234,7 +304,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.CraneApplication">
+  <component name="RunManager" selected="JUnit.RegisterTests.postJson">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -428,77 +498,79 @@
       <workItem from="1518068188392" duration="12740000" />
       <workItem from="1518080981349" duration="3803000" />
       <workItem from="1518092801443" duration="235000" />
-      <workItem from="1518093245559" duration="102000" />
+      <workItem from="1518093245559" duration="1216000" />
+      <workItem from="1518098359477" duration="757000" />
+      <workItem from="1518155405923" duration="3796000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CraneApplicationTests - 2018.02.07 at 17h 18m 44s.xml">
-      <configuration name="CraneApplicationTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CraneApplicationTests - 2018.02.08 at 15h 06m 32s.xml">
-      <configuration name="CraneApplicationTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RegisterTests - 2018.02.08 at 17h 34m 16s.xml">
-      <configuration name="RegisterTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RegisterTests_postJson - 2018.02.08 at 17h 31m 08s.xml">
+    <history-entry file="RegisterTests_postJson - 2018.02.09 at 14h 06m 12s.xml">
       <configuration name="RegisterTests.postJson" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegisterTests_postJson - 2018.02.08 at 17h 31m 48s.xml">
+    <history-entry file="RegisterTests_postJson - 2018.02.09 at 14h 06m 54s.xml">
       <configuration name="RegisterTests.postJson" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegisterTests_postJson - 2018.02.08 at 17h 39m 07s.xml">
+    <history-entry file="RegisterTests_postJson - 2018.02.09 at 14h 07m 30s.xml">
       <configuration name="RegisterTests.postJson" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegisterTests_postJson - 2018.02.08 at 17h 43m 42s.xml">
+    <history-entry file="RegisterTests_postJson - 2018.02.09 at 14h 08m 34s.xml">
       <configuration name="RegisterTests.postJson" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegisterTests_postJson - 2018.02.08 at 17h 44m 27s.xml">
+    <history-entry file="RegisterTests_postJson - 2018.02.09 at 14h 12m 21s.xml">
       <configuration name="RegisterTests.postJson" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegisterTests_postJson - 2018.02.08 at 17h 48m 18s.xml">
+    <history-entry file="RegisterTests_postJson - 2018.02.09 at 14h 46m 19s.xml">
       <configuration name="RegisterTests.postJson" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegisterTests_postJson - 2018.02.08 at 17h 49m 56s.xml">
+    <history-entry file="RegisterTests_postJson - 2018.02.09 at 14h 47m 40s.xml">
+      <configuration name="RegisterTests.postJson" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegisterTests_postJson - 2018.02.09 at 14h 49m 53s.xml">
+      <configuration name="RegisterTests.postJson" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegisterTests_postJson - 2018.02.09 at 14h 50m 16s.xml">
+      <configuration name="RegisterTests.postJson" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegisterTests_postJson - 2018.02.09 at 14h 51m 46s.xml">
       <configuration name="RegisterTests.postJson" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30233000" />
+    <option name="totallyTimeSpent" value="35900000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="16" y="48" width="1370" height="611" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4079498" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23809524" sideWeight="0.5151286" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47926268" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22442748" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39938557" sideWeight="0.4969743" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32565284" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23809524" sideWeight="0.48487142" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22541603" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32668713" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -516,7 +588,9 @@
     </ignored-roots>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -688,7 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -777,13 +850,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../crane/src/main/java/com/example/crane/model/AskTokenCodeModel.java" />
-    <entry file="file://$PROJECT_DIR$/../crane/src/main/java/com/example/crane/controller/UploadDeletePictureController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="54" column="29" lean-forward="false" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../crane/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
@@ -810,20 +876,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../crane/src/main/java/com/example/crane/util/CheckInputUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../crane/src/main/java/com/example/crane/dao/CraneUserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -871,10 +923,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../crane/src/main/java/com/example/crane/util/SmsUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../crane/src/main/java/com/example/crane/dao/CraneTokenLogDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="282">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
             <marker date="1518083263892" expanded="true" signature="534:607" ph="INSERT INTO token_log... " />
@@ -885,28 +945,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../crane/src/main/java/com/example/crane/controller/UploadDeletePictureController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="60" column="25" lean-forward="false" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../crane/src/main/java/com/example/crane/util/CheckInputUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="51" column="26" lean-forward="false" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../crane/src/main/java/com/example/crane/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="43" column="69" lean-forward="false" selection-start-line="43" selection-start-column="69" selection-end-line="43" selection-end-column="69" />
+        <state relative-caret-position="489">
+          <caret line="89" column="71" lean-forward="false" selection-start-line="89" selection-start-column="71" selection-end-line="89" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../crane/src/main/java/com/example/crane/util/SmsUtil.java">
+    <entry file="file://$PROJECT_DIR$/../crane/src/main/java/com/example/crane/dao/CraneUserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding />
+        <state relative-caret-position="63">
+          <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1518158381119" expanded="true" signature="569:709" ph="insert into crane_user... " />
+            <marker date="1518158381119" expanded="true" signature="912:974" ph="update crane_user... " />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../crane/src/test/java/com/example/crane/RegisterTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="529">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

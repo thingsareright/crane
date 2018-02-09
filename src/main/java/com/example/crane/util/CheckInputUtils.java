@@ -32,8 +32,8 @@ public class CheckInputUtils {
 
     }
 
-    //检查密码是否合法：非空，[6,16]位数字，字母，下划线组成。符合格式返回true，否则返回false。
-    public static Boolean checkPassword(String password){
+    //检查原始密码是否合法：非空，[6,16]位数字，字母，下划线组成。符合格式返回true，否则返回false。
+    public static Boolean checkNaturalPassword(String password){
         byte[] passByte= password.getBytes();
         if (passByte.length < 6 || passByte.length > 16)
             return false;
@@ -48,9 +48,10 @@ public class CheckInputUtils {
         return true;
     }
 
-    //判断普通输入内容是否合法：非空，无SQL注入。符合格式返回true，否则返回false。
-    public static Boolean checkCommonInput(String input){
-        //TODO
-        return null;
+    //判断数据库格式的密码是否复合要求。符合格式返回true，否则返回false。
+    public static Boolean checkDatabasePassword(String input){
+        if (input == null)
+            return false;
+        return true;
     }
 }
