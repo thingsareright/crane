@@ -29,6 +29,7 @@ public class UploadDeletePictureController {
     @Autowired
     CranePictureDao cranePictureDao;
 
+    @RequestMapping("/uploadPicture")
     public String UploadPicture(@RequestBody UploadPictureModel uploadPictureModel){
 
         if (uploadPictureModel.getUserPhone() == null || uploadPictureModel.getUserPassword() == null)
@@ -38,23 +39,25 @@ public class UploadDeletePictureController {
             return "0"; //手机号有问题
         }
 
-        List craneUserList = craneUserDao.findByUserPhoneAndPassword(uploadPictureModel.getUserPhone(),
+        List<CraneUser> craneUserList = craneUserDao.findByUserPhoneAndPassword(uploadPictureModel.getUserPhone(),
                 uploadPictureModel.getUserPassword());
         if (craneUserList == null)
-            return "1"; //不好意思，没有那个用户或者密码错误
-        if (craneUserList.size() != 1)
-            return "2"; //兄弟，有可能有SQL注入啊
+            return "2"; //不好意思，没有那个用户或者密码错误
+        if (craneUserList.size() > 1)
+            return "3"; //兄弟，有可能有SQL注入啊
 
 
         if (uploadPictureModel.getBase64() == null)
-            return "1"; //表示上传的图片为空，上传失败
+            return "4"; //表示上传的图片为空，上传失败
 
         UUID uuid = UUID.randomUUID();  //生成一个UUID作为文件名
         try {
-            FileUtil.generateImage(uploadPictureModel.getBase64(),uuid.toString());
-            return ConstantUtil.serverUrl + "/" + uuid.toString() + ".jpg"; //返回链接
+            String uploadFilePath = new String(uuid.toString());
+            FileUtil.generateImage(uploadPictureModel.getBase64(),uploadFilePath);
+            cranePictureDao.insertAfterUpload(craneUserList.get(0).getUserId(), uploadFilePath);
+            return ConstantUtil.serverUrl + "/" + uploadFilePath + ".jpg"; //返回链接
         } catch (IOException e) {
-            return "2"; //上传文件非空且上传失败
+            return "5"; //上传文件非空且上传失败
         }
     }
 

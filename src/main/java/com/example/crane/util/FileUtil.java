@@ -13,7 +13,7 @@ import java.io.OutputStream;
 public class FileUtil {
 
     //本项目图片文件存放路径 TODO 以后要改成静态资源服务器的路径
-    private static String imgpath = "src/main/webapp/";
+    private static String imgpath = "/home/meng/IdeaProjects/crane/src/main/java/com/example/crane/picture/";
 
     public static boolean generateImage(String base64, String filename) throws IOException {
         if (base64 == null)
@@ -29,8 +29,7 @@ public class FileUtil {
         }
 
         //找以前是否有同名文件
-        File file = new File("src/main/webapp/" + filename + ".jpg");
-        judeFileExists(file);
+        File file = new File( imgpath + filename + ".jpg");
         OutputStream stream = new FileOutputStream(file);
         stream.write(b);
         stream.flush();

@@ -1,4 +1,4 @@
-package com.example.crane;
+package com.example.crane.test;
 
 
 import com.example.crane.model.UserRegisterForgetPasswordModel;
@@ -27,7 +27,7 @@ public class RegisterTests {
     public void postJson() throws IOException {
 
         UserRegisterForgetPasswordModel model = new UserRegisterForgetPasswordModel();
-        model.setTokenCode("215273");
+        model.setTokenCode("012476");
         model.setUserPassword("dsaasfasf");
         model.setUserPhone("18838951998");
 
