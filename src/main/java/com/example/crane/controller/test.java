@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.io.IOException;
 
-import static com.example.crane.test.RegisterTests.JSON;
 
 @RestController
 @RequestMapping("/test")

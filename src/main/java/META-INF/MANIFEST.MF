@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Class-Path: logback-core-1.1.11.jar spring-jdbc-4.3.14.RELEASE.jar spr
+ ing-expression-4.3.14.RELEASE.jar spring-test-5.0.3.RELEASE.jar sprin
+ g-boot-starter-logging-1.5.10.RELEASE.jar spring-data-jpa-1.11.10.REL
+ EASE.jar tomcat-jdbc-8.5.27.jar ognl-3.0.8.jar spring-boot-starter-ao
+ p-1.5.10.RELEASE.jar spring-boot-starter-1.5.10.RELEASE.jar thymeleaf
+ -2.1.6.RELEASE.jar javax.transaction-api-1.2.jar jul-to-slf4j-1.7.25.
+ jar hibernate-jpa-2.1-api-1.0.0.Final.jar commons-codec-1.10.jar okio
+ -1.4.0.jar spring-boot-autoconfigure-1.5.10.RELEASE.jar dom4j-1.6.1.j
+ ar slf4j-api-1.7.25.jar spring-boot-starter-jdbc-1.5.10.RELEASE.jar a
+ ntlr-2.7.7.jar thymeleaf-layout-dialect-1.4.0.jar mysql-connector-jav
+ a-5.1.45.jar junit-4.12.jar aspectjweaver-1.8.13.jar spring-aspects-4
+ .3.14.RELEASE.jar spring-aop-4.3.14.RELEASE.jar httpclient-4.5.5.jar 
+ spring-context-4.3.14.RELEASE.jar jcl-over-slf4j-1.7.25.jar spring-we
+ b-4.3.14.RELEASE.jar httpmime-4.5.5.jar unbescape-1.1.0.RELEASE.jar j
+ boss-logging-3.3.1.Final.jar spring-tx-4.3.14.RELEASE.jar spring-core
+ -4.3.14.RELEASE.jar spring-boot-1.5.10.RELEASE.jar gson-2.3.1.jar spr
+ ing-boot-starter-tomcat-1.5.10.RELEASE.jar thymeleaf-spring4-2.1.6.RE
+ LEASE.jar spring-boot-starter-thymeleaf-1.5.10.RELEASE.jar spring-orm
+ -4.3.14.RELEASE.jar snakeyaml-1.17.jar hibernate-entitymanager-5.0.12
+ .Final.jar hamcrest-core-1.3.jar tomcat-embed-el-8.5.27.jar spring-bo
+ ot-starter-web-1.5.10.RELEASE.jar spring-boot-starter-data-jpa-1.5.10
+ .RELEASE.jar validation-api-1.1.0.Final.jar okhttp-2.4.0.jar tomcat-e
+ mbed-websocket-8.5.27.jar spring-data-commons-1.13.10.RELEASE.jar spr
+ ing-beans-4.3.14.RELEASE.jar sms-0.9.1.jar json-20140107.jar httpcore
+ -4.4.9.jar jackson-databind-2.8.10.jar jackson-core-2.8.10.jar javass
+ ist-3.21.0-GA.jar classmate-1.3.4.jar hibernate-commons-annotations-5
+ .0.1.Final.jar spring-webmvc-4.3.14.RELEASE.jar jackson-annotations-2
+ .8.0.jar hibernate-validator-5.3.6.Final.jar jandex-2.0.0.Final.jar t
+ omcat-juli-8.5.27.jar spring-boot-test-1.5.10.RELEASE.jar logback-cla
+ ssic-1.1.11.jar hibernate-core-5.0.12.Final.jar tomcat-annotations-ap
+ i-8.5.27.jar tomcat-embed-core-8.5.27.jar groovy-2.4.13.jar log4j-ove
+ r-slf4j-1.7.25.jar
+Main-Class: com.example.crane.CraneApplication
+

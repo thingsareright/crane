@@ -9,13 +9,13 @@
 	<packaging>jar</packaging>
 
 	<name>crane</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Version 1.0 project for Crane Subject</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>1.5.10.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath/>
 	</parent>
 
 	<properties>
@@ -88,13 +88,18 @@
 	</dependencies>
 
 	<build>
+		<finalName>crane</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<mainClass>com.example.crane.CraneApplication</mainClass>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
+
 
 
 </project>
