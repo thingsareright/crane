@@ -37,7 +37,7 @@ public class FileUtil {
         return true;
     }
 
-    // 判断文件是否存在,存在则删除
+    // 判断文件是否存在,存在则删除，并重新创建
      public static void judeFileExists(File file) throws IOException {
         if (file.exists()) {
             file.delete();
@@ -47,4 +47,22 @@ public class FileUtil {
      }
 
 
+
+    /**
+     * 判断文件是否存在，存在则删除,操作后不存在文件即返回1，否则返回0
+     * @param filename 所以这里的参数只要是数据库中的名字就行了，不用带后缀名
+     * @return 成功删除则返回1，否则返回0
+     */
+    public static int judeFileExistsAndDelete(String filename) {
+        File file = new File( imgpath + filename + ".jpg"); //所以这里的参数只要是数据库中的名字就行了，不用带后缀名
+        try {
+            if (file.exists()) {
+                file.delete();
+
+            }
+            return 1;
+        } catch (Exception e) {
+            return 0;
+        }
+    }
 }

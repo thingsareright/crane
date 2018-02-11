@@ -29,4 +29,5 @@ public interface CraneUserDao extends JpaRepository<CraneUser, Long> {
     public void forgetPasswordUpdate(String userPhone, String userPassword);
 
     public CraneUser findTopByUserPhone(String user_phone);
+
 }

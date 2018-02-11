@@ -4,6 +4,7 @@ import com.example.crane.dao.CranePictureDao;
 import com.example.crane.dao.CraneUserDao;
 import com.example.crane.entity.CranePicture;
 import com.example.crane.entity.CraneUser;
+import com.example.crane.model.DeletePictureModel;
 import com.example.crane.model.UploadPictureModel;
 import com.example.crane.util.CheckInputUtils;
 import com.example.crane.util.ConstantUtil;
@@ -61,5 +62,37 @@ public class UploadDeletePictureController {
         }
     }
 
-    //TODO 删除图片的业务逻辑还没有写呢 ！！！
+
+    /**
+     * 用户删除一个图片，一个指定路径的图片
+     * @param model 删除图片时需要用到的POST格式请求包的格式规范
+     * @return  成功则返回1，否则返回0
+     */
+    @RequestMapping("/deletePicture")
+    public int DeletePicture(@RequestBody DeletePictureModel model) {
+
+
+            try {
+                String userPhone = model.getUserPhone();
+                String userPassword = model.getUserPassword();
+                String pictureUrl = model.getPictureUrl();
+
+                if (userPhone == null | userPassword == null | pictureUrl == null)
+                    return 0;   //因为信息不全所以操作失败
+
+                if (!CheckInputUtils.checkTel(userPhone))
+                    return 3;   //号码不符合规范所以操作失败
+
+                //不管有没有这个文件，执行了这个方法后就不会有这样的文件存在
+                FileUtil.judeFileExistsAndDelete(pictureUrl);
+
+
+                cranePictureDao.DeleteAfterQuery(userPhone, userPassword,pictureUrl);
+
+                return 1;
+            } catch (Exception e){
+                return 0;
+            }
+
+    }
 }

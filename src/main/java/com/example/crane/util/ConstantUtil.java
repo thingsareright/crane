@@ -6,7 +6,7 @@ package com.example.crane.util;
 public class ConstantUtil {
 
     //记录静态资源服务器的URL
-    public static final String serverUrl = "";
+    public static final String serverUrl = "http://120.78.178.86:5003";
 
 
 }

@@ -3,6 +3,7 @@ package com.example.crane.controller;
 
 import com.example.crane.dao.CraneTokenLogDao;
 import com.example.crane.util.CheckInputUtils;
+import com.example.crane.util.SmsUtil;
 import com.example.crane.util.StrUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -37,7 +38,7 @@ public class SmsController {
         //首先生成一个由6位数字组成的随机字符串
         String code = StrUtil.getRandomCode();
         try {
-            //TODO String result = SmsUtil.sendgetCode(phone, code, "5");
+            String result = SmsUtil.sendgetCode(phone, code, "5");
             craneTokenLogDao.saveNow(phone,code);
             return 1;   //验证码已经发送
         } catch (Exception e) {
